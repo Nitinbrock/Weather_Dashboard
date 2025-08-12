@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <!-- Title for webpage -->
+        <title>Weather Dashboard</title>
+
+        <!--Linking the CSS file for styling the HTML content -->
+        <link rel="stylesheet" href="wd.css"/>  
+
+    </head>
+
+    <body>
+
+        <!-- Heading for Webpage -->
+        <h1>Weather Dashboard</h1>
+
+        <!-- Getting City name as Input -->
+        <input type="text" id="cityInput" placeholder="Enter City Name...">
+
+        <!-- Fetching the details of weather for the entered city name  -->
+        <button onclick=getWeather()>Search</button>
+
+
+        <div id="weathercard"></div>
+        
+        <!-- Linking the javascript file -->
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
